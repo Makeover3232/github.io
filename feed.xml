@@ -3,7 +3,7 @@
     <title>David R | SecOps &amp; GRC</title>
     <link href="https://davidr.co/feed.xml" rel="self" />
     <link href="https://davidr.co" />
-    <updated>2025-10-05T14:21:22+11:00</updated>
+    <updated>2025-10-05T14:41:29+11:00</updated>
     <author>
         <name>David R</name>
     </author>
@@ -16,6 +16,7 @@
         </author>
         <link href="https://davidr.co/from-noise-to-signal-tuning-impossible-travel-alerts-in-microsoft-sentinel/"/>
         <id>https://davidr.co/from-noise-to-signal-tuning-impossible-travel-alerts-in-microsoft-sentinel/</id>
+            <category term="featured"/>
 
         <updated>2025-10-05T14:21:22+11:00</updated>
             <summary>

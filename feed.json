@@ -5,6 +5,7 @@
     "home_page_url": "https://davidr.co",
     "feed_url": "https://davidr.co/feed.json",
     "user_comment": "",
+    "icon": "https://davidr.co/media/website/DR-Gold-on-Blue-on-Transparent.png",
     "author": {
         "name": "David R"
     },
@@ -19,9 +20,10 @@
                 "name": "David R"
             },
             "tags": [
+                   "featured"
             ],
             "date_published": "2025-10-05T14:21:22+11:00",
-            "date_modified": "2025-10-05T14:21:22+11:00"
+            "date_modified": "2025-10-05T14:41:29+11:00"
         }
     ]
 }
