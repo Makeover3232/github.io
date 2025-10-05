@@ -3,10 +3,51 @@
     <title>David R | SecOps &amp; GRC</title>
     <link href="https://davidr.co/feed.xml" rel="self" />
     <link href="https://davidr.co" />
-    <updated>1970-01-01T10:00:00+10:00</updated>
+    <updated>2025-10-05T14:21:22+11:00</updated>
     <author>
         <name>David R</name>
     </author>
     <id>https://davidr.co</id>
 
+    <entry>
+        <title>From Noise to Signal: Tuning Impossible Travel Alerts in Microsoft Sentinel</title>
+        <author>
+            <name>David R</name>
+        </author>
+        <link href="https://davidr.co/from-noise-to-signal-tuning-impossible-travel-alerts-in-microsoft-sentinel/"/>
+        <id>https://davidr.co/from-noise-to-signal-tuning-impossible-travel-alerts-in-microsoft-sentinel/</id>
+
+        <updated>2025-10-05T14:21:22+11:00</updated>
+            <summary>
+                <![CDATA[
+                    <p>One of the biggest sources of noise in our SOC is “impossible travel” detections. Too many false positives, and analysts stop trusting the alerts, wasting valuable time triaging benign activity. Too much suppression, and you risk missing real anomalies.</p>
+
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>One of the biggest sources of noise in our SOC is “impossible travel” detections. Too many false positives, and analysts stop trusting the alerts, wasting valuable time triaging benign activity. Too much suppression, and you risk missing real anomalies.</p>
+
+<p>With a major new government client, we needed to strike the right balance and address the reality that HR and policy rarely move at the speed required for a high-paced SOC. While we have been working with this and other key customers to uplift their travel and remote work policies, we have also invested heavily in noise reduction. This has freed up SOC capacity for higher-value tasks such as threat hunting, detection engineering, and maturing our advisory and IOC mapping practices.</p>
+<p>Over the past few months I have refined this use case in Microsoft Sentinel through:</p>
+<ul>
+<li>
+<p>Custom UEBA-style logic to highlight true anomalies</p>
+</li>
+<li>
+<p>Trusted-device and service exclusions to cut high-confidence false positives</p>
+</li>
+<li>
+<p>A known overseas-user watchlist for targeted suppression of expected travel and VPN usage</p>
+</li>
+<li>
+<p>An investigation automation (Logic Apps) that collects key incident data, converts it into user-friendly strings, and emails both the user and their manager with next steps</p>
+</li>
+</ul>
+<blockquote>
+<p><strong><em>The result: less noise, clearer signals, and faster responses for the alerts that matter.</em></strong></p>
+</blockquote>
+            ]]>
+        </content>
+    </entry>
 </feed>
