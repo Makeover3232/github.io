@@ -3,12 +3,93 @@
     <title>David R | Cyber Security Professional</title>
     <link href="https://davidr.co/feed.xml" rel="self" />
     <link href="https://davidr.co" />
-    <updated>2025-10-05T14:41:29+11:00</updated>
+    <updated>2025-10-05T16:57:10+11:00</updated>
     <author>
         <name>David R</name>
     </author>
     <id>https://davidr.co</id>
 
+    <entry>
+        <title>A Framework for Scalable Detection Engineering in Microsoft Sentinel</title>
+        <author>
+            <name>David R</name>
+        </author>
+        <link href="https://davidr.co/a-framework-for-scalable-detection-engineering-in-microsoft-sentinel/"/>
+        <id>https://davidr.co/a-framework-for-scalable-detection-engineering-in-microsoft-sentinel/</id>
+
+        <updated>2025-10-05T16:57:10+11:00</updated>
+            <summary>
+                <![CDATA[
+                    Our SOC doesn’t just respond to alerts; we invest in proactive detection engineering and threat hunting to stay ahead of adversaries. Default rules are a&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Our SOC doesn’t just respond to alerts; we invest in proactive detection engineering and threat hunting to stay ahead of adversaries. Default rules are a good starting <strong>point</strong>, but without refinement, they often generate noise or miss key attack patterns.</p>
+<p>As our client base has grown, we have focused on building repeatable and well-documented detection content. This ensures high-confidence alerts, stronger workflows for analysts, and a clear path for maturing our operations.</p>
+<p>Over the past quarter, I developed a set of "one-pager" documents to capture and share our most valuable custom detections and hunting queries in Microsoft Sentinel. Each one includes:</p>
+<ul>
+<li>
+<p>The KQL query</p>
+</li>
+<li>
+<p>Use case description</p>
+</li>
+<li>
+<p>MITRE ATT&amp;CK mapping</p>
+</li>
+<li>
+<p>SOC workflow impact</p>
+</li>
+<li>
+<p>Visuals or screenshots where useful</p>
+</li>
+</ul>
+<p><strong>This framework has reduced time-to-value for new detections and empowered our SOC team to scale smarter.</strong></p>
+<figure class="post__image"><img loading="lazy"  src="https://davidr.co/media/posts/8/Terminated-User-Sign-ins-1.png" alt="" width="1654" height="2339" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://davidr.co/media/posts/8/responsive/Terminated-User-Sign-ins-1-xs.png 300w ,https://davidr.co/media/posts/8/responsive/Terminated-User-Sign-ins-1-sm.png 480w ,https://davidr.co/media/posts/8/responsive/Terminated-User-Sign-ins-1-md.png 768w ,https://davidr.co/media/posts/8/responsive/Terminated-User-Sign-ins-1-lg.png 1024w"></figure>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Data-Driven SOC Resourcing: Building a Team Utilisation Model</title>
+        <author>
+            <name>David R</name>
+        </author>
+        <link href="https://davidr.co/data-driven-soc-resourcing-building-a-team-utilisation-model/"/>
+        <id>https://davidr.co/data-driven-soc-resourcing-building-a-team-utilisation-model/</id>
+
+        <updated>2025-10-05T16:54:39+11:00</updated>
+            <summary>
+                <![CDATA[
+                    Here is a slightly revised version incorporating those suggestions. It keeps your excellent core message but refines the wording for maximum impact. As our SOC&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Here is a slightly revised version incorporating those suggestions. It keeps your excellent core message but refines the wording for maximum impact.</p>
+<blockquote>
+<p>As our SOC team scaled, our reactive approach to scheduling analyst time became a significant bottleneck. Without a data-driven way to measure demand, allocating resources for projects, meetings, and professional development was inefficient and created a risk of analyst burnout.</p>
+<p>To solve this, I designed and built a utilisation model that combines:</p>
+<ul>
+<li>
+<p>Alert volumes enriched with a “level of human triage required” filter</p>
+</li>
+<li>
+<p>Incident escalations mapped by hour and day</p>
+</li>
+<li>
+<p>Effort metrics based on actual triage, escalation, and remediation data</p>
+</li>
+<li>
+<p>A heatmap visualisation to highlight peaks and quieter periods</p>
+</li>
+</ul>
+<p><strong>The result was a clear, actionable picture of workload patterns and peak demand windows.</strong> This data now informs our strategic resourcing, strengthens our pricing models, and helps us structure the SOC to better serve our clients.</p>
+</blockquote>
+<figure class="post__image"><img loading="lazy"  src="https://davidr.co/media/posts/7/SOC-Utilisation-Model-Branded.png" alt="" width="1400" height="1180" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://davidr.co/media/posts/7/responsive/SOC-Utilisation-Model-Branded-xs.png 300w ,https://davidr.co/media/posts/7/responsive/SOC-Utilisation-Model-Branded-sm.png 480w ,https://davidr.co/media/posts/7/responsive/SOC-Utilisation-Model-Branded-md.png 768w ,https://davidr.co/media/posts/7/responsive/SOC-Utilisation-Model-Branded-lg.png 1024w"></figure>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>From Noise to Signal: Tuning Impossible Travel Alerts in Microsoft Sentinel</title>
         <author>
